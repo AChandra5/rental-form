@@ -10,6 +10,8 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr 22fr 1fr 1fr;
     padding-top: 40px;
+    background: #343434;
+    height: 11vh;
 }
 p{
     margin-left: 10px;
