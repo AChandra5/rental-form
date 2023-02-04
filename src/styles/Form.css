@@ -6,12 +6,12 @@
 }
 
 
-label{
+/* label{
     color: #9b9595;
     display: block;
     margin: 5px;
     margin-bottom: 0;
-}
+} */
 .label{
     padding-left: 5px;
 }
@@ -31,7 +31,8 @@ input:focus{
     outline: none;
 }
 form{
-    margin:20px
+    margin:20px;
+    margin-top:5px
 }
 .bottom{
     color: white;
@@ -67,7 +68,8 @@ padding: 5px;
 background: #37383A;
 margin: 5px;
 border-radius: 20px;
-width: 80vw;
+/* width: 80vw; */
+width:80%;
 margin-left: 10px;
 }
 
@@ -75,28 +77,32 @@ margin-left: 10px;
     color: white;
     background: #37383A;
     width: 80vw;
+    max-width: 350px;
     height: 50px;
-    margin-top: 0px;
+    margin-top: -5px;
+    margin-left: -13px;
+    /* margin-top: 0px; */
     border-style: none;
+    width :  350px
 }
 .detail-verification-tag{
     font-size: small;
     height: 45px;
-    background:#222222 ;
+    background:#37383A ;
     border-radius: 5px;
     border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -2px;
+  max-width: 350px;
 
 }
-.detail-verification-tag p{
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .button{
     color: white;
-    width: 80vw;
+    /* width: 80vw; */
     margin: auto;
     /* align-content: center; */
     border-radius: 20px;
@@ -105,6 +111,12 @@ margin-left: 10px;
 button{
     border-radius: 5px;
 margin-top: -2;
+background: #7F7F7F;
+}
+.continue{
+background: #7F7F7F;
+margin-top: -5px;
+    margin-left: -2px;
 }
 .niro{
     display: inline;
@@ -117,4 +129,10 @@ footer{
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+
+
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root{
+color: white;
 }
