@@ -1,7 +1,16 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+
 import vector from '../assets/Vector.svg'
 import niro from '../assets/svgexport-1.svg'
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
+
 
 import '../styles/Form.css'
 
@@ -11,7 +20,8 @@ function AddressForm() {
             <div>
                 <h2>Rental Property Details</h2>
             </div>
-            <form>
+
+            {/* <form>
                 <label htmlFor='flat-number' className='labeheight: 19px;
     display: inline;l'>flat no./Building name</label>
                 <input type="text" id="flat-number"></input>
@@ -35,7 +45,7 @@ function AddressForm() {
                     <img className='vector' src={vector} alt="help"></img>
                     <p className='warning-text'>Only rent payments above ₹10,000 can be paid using this credit line</p>
                 </div>
-            </form>
+            </form> */}
 
             <h4 className='bottom'>Paying Rent For</h4>
             <div className='month-divs'>
