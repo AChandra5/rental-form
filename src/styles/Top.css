@@ -1,0 +1,23 @@
+img{
+    height:35px;
+    display: block;
+}
+.top-bar{
+    display: flex;
+}
+.top{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 22fr 1fr 1fr;
+    padding-top: 40px;
+}
+p{
+    margin-left: 10px;
+}
+.left-img{
+    margin-left: 25px;
+}
+h2{
+    padding: 20px;
+    color: white;
+}
